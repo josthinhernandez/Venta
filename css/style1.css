@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.slide-container {
+  margin: auto;
+  width: 920px;
+  height:500px;
+  text-align: center;
+  position:relative;
+  top:50px;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.clash-card__image--user {
+  background:#848484;
+}
+.clash-card__image--user img {
+  width: 400px;
+  position: absolute;
+  top: -95px;
+  left: -50px;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.clash-card__level--ventas {
+color: #EE5487;
+  position:relative;
+    font: 28px Montserrat, sans-serif;
+font-size: 2rem;
+}
+.clash-card__level--compras {
+  color: #04B404;
+   position:relative;
+    font: 28px Montserrat, sans-serif;
+font-size: 2rem;
+}
+
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: #FF8000;
+  margin-bottom: 5px;
+  font: 28px Montserrat, sans-serif;
+font-size: 2rem;
+}
+.clash-card__btCompras {
+  font-size: 26px;
+  width:140px;
+  margin-left:80px;
+  margin-bottom:10px;
+  height:30px;
+  color: white;
+  outline:none;
+  background-color:green;
+  display:flex;
+  border-radius:15px;
+justify-content:center;
+align-items:center;
+font: 28px Montserrat, sans-serif;
+font-size: 1rem;
+}
+.clash-card__btVentas {
+  font-size: 26px;
+  width:140px;
+  margin-left:80px;
+  margin-bottom:10px;
+  height:30px;
+  color: white;
+  background-color:#EE5487;
+  display:flex;
+  outline:none;
+  border-radius:15px;
+justify-content:center;
+align-items:center;
+font: 28px Montserrat, sans-serif;
+font-size: 1rem;
+}
+.clash-card__btUser {
+  font-size: 26px;
+  width:140px;
+  margin-left:80px;
+  margin-bottom:10px;
+  height:30px;
+  color: white;
+  outline:none;
+  background-color:#DF3A01;
+  display:flex; outline:none;
+  border-radius:15px;
+justify-content:center;
+align-items:center;
+font: 28px Montserrat, sans-serif;
+font-size: 1rem;
+}
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;
+    font: 28px Montserrat, sans-serif;
+font-size: 1.1rem;
+color:#585858;
+}
+
+.clash-card__unit-stats--barbarian {
+  background: #EC9B3B;
+}
+
+
+.clash-card__level--user {
+  color: #f6a;
+  position:relative;
+    font: 28px Montserrat, sans-serif;
+font-size: 2rem;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 200px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 200px;
+  z-index: 999;
+}
+@media only screen and (max-width:900px)
+{
+	.slide-container {
+		position:relative;
+  top:110px;
+  width:100%;
+
+}
+}
